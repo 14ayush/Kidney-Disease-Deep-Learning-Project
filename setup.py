@@ -5,7 +5,7 @@ with open("README.md","r",encoding="utf-8") as f:
 __version__="0.0.0"
 REPO_NAME="Kidney-Disease-Deep-Learning-Project"
 AUTHOR_USER_NAME="14ayush"
-SRC_REPO="cnn-classifer"
+SRC_REPO="cnnclassifer"
 AUTHOR_EMAIL="aayushpsharma88099@gmail.com"
 
 setuptools.setup(
