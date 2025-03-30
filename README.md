@@ -10,12 +10,25 @@ Step 4 : create the setup.py file which contain the setup of the project
 
 Step 5 : Creating The logging exceptions an utils modules(
 
-(logger :-   Logger help to know where we get the bug while running the file .it just simply return the time ,module, and the message of the bug )
-
-[exception file :- To create the exception File we use the utils folder because here we use the box exception instead of custom exception using python box module(package) .inside the utils folder we create the (common.py) file
+* (logger :-   Logger help to know where we get the bug while running the file .it just simply return the time ,module, and the message of the bug )
+* [exception file :- To create the exception File we use the utils folder because here we use the box exception instead of custom exception using python box module(package) .inside the utils folder we create the (common.py) file
 
 * In (**common.py )** file we make the all functions that used further in the project so to make the code flow easier we make the common file.
 * What is config box :- config box help access the value of the dictonary vaue directly as we know all the yaml file we return the data in the dictonary formate
+
 * **Ensure annotation :-**  It helps to prevent from the error if we provide the data type to a variable and it acts or work like another data type so it help to prevent us fro the error 
+
+# **WORK FLOW**
+
+1. Update config.yaml
+2. update params.yaml
+3. update the entity
+4. update the configuration manager in src config
+5. update the components
+6. update the pipeline
+7. update main.py
+8. update the dvc.yaml
+9. make app.py
+11. up
 
 )
